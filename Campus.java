@@ -1,5 +1,5 @@
 import java.util.*;
-
+//profa me equivoque muchisimas veces a la hora de subirlo, segun lo hice por partes pero resulto que lo hice todo mal haahahaha, pero al final si pude subirlo :c
 class CampusMap {
     private Map<String, Map<String, Integer>> graph;
 
