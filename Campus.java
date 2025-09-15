@@ -1,6 +1,6 @@
 import java.util.*;
 //profa me equivoque muchisimas veces a la hora de subirlo, segun lo hice por partes pero resulto que lo hice todo mal haahahaha, pero al final si pude subirlo :c
-class CampusMap {
+class CampusMap { //modulo de grafos
     private Map<String, Map<String, Integer>> graph;
 
     public CampusMap() {
@@ -113,7 +113,7 @@ class AVLNode {
         this.height = 1;
     }
 }
-
+//parte 2 modulo de estudiantes
 class AVLTree {
     private AVLNode root;
 
@@ -193,7 +193,7 @@ class AVLTree {
         return node == null ? 0 : getHeight(node.left) - getHeight(node.right);
     }
 }
-
+//modulo de incidencias
 class Incident {
     int id;
     String title;
